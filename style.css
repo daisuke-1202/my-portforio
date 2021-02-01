@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP');
+*{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.container{
+    margin: 0px 300px;
+}
+
+/* ここからヘッダー*/
+.header{
+    background-color: white;
+    height: 500px;
+    padding-top: 70px;
+}
+.headerImage{
+    background-image: url(https://images.unsplash.com/photo-1593642634402-b0eb5e2eebc9?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=2850&q=80);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    margin-left: 15%;
+}
+h1{
+    font-size: 4rem;
+    letter-spacing: 10px;
+    margin-bottom: 60px;
+    text-align: right;
+    font-family:fantasy;
+    color:darkcyan;
+}
+h1::first-letter{
+    font-size: 8rem;
+}
+.header p{
+    text-align: right;
+    font-family:serif;
+}
+.self-introduction1{
+    margin-bottom: 100px;
+}
+
+
+
+
+
+
+/* ここからメイン*/
+.main{
+    background-color: rgb(206, 224, 224);
+}
+.historyTop{
+    position:fixed;
+    right:50px;
+    bottom:50px;
+    transition:1s;
+    opacity:0.7;
+    text-decoration: none;
+}
+
+
+.service{
+    height: 500px;
+}
+.serviceImage{
+    background-image: url(nik-shuliahin-BuNWp1bL0nc-unsplash.jpg);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.copy{
+    padding-top: 50px;
+    font-weight: bold;
+    font-size: 27px;
+    color:white;
+    text-shadow: 1px 0 0 black,0 1px 0 black,-1px 0 0 black,0 -1px 0 black;
+}
+.copy h2{
+    font-family: 'ヒラギノ角ゴ Std W8','Hiragino Kaku Gothic Std';
+    color:rgb(129, 129, 255);
+    padding-bottom: 20px;
+}
+.explanation{
+    margin-top: 150px;
+    text-align: right;
+    color: white;
+    text-shadow: 1px 0 0 black,0 1px 0 black,-1px 0 0 black,0 -1px 0 black;
+}
+
+.marginTop{
+    margin-top: 50px;
+}
+.skillsTitle{
+    text-align: center;
+    padding-bottom: 60px;
+}
+.explanation h3{
+    font-weight: normal;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.skill{
+    width: 50%;
+    height: 200px;
+
+}
+.skill h3{
+    font-size: 25px;
+    font-style: italic;
+    padding-bottom: 5px;
+}
+.skill img{
+    border-radius: 50%;
+}
+.skills{
+    height: 500px;
+}
+
+
+
+
+
+
+
+.contents{
+    
+}
+.item{
+    height: 500px;
+}
+.item img{
+    text-align:center;
+}
+.image{
+    text-align: center;
+}
+
+
+.contactForm{
+    height: 500px;
+    display: table;
+}
+.message{
+    display: table-cell;
+    vertical-align: middle;
+}
+.message h2{
+    font-size: 3rem;
+    margin-bottom: 100px;
+    font-family: Lobster;
+}
+
+/* ここからフッター*/
+.footer{
+    background-color:rgb(129, 129, 255);
+}
+table{
+    margin: 0 auto;
+    color: white;
+}
+.sns{
+    text-decoration: none;
+}
+.logo{
+    font-weight: normal;
+}
